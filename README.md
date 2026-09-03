@@ -1,5 +1,5 @@
 <div align="center">
-<img alt="rcservo logo" src="https://raw.githubusercontent.com/antonvh/serialtalk/master/images/serialtalk.png" width="200">
+<img alt="rcservo logo" src="https://raw.githubusercontent.com/AntonsMindstorms/SerialTalk/master/images/serialtalk.png" width="200">
 
 # SerialTalk: platform-independent symmetric communication library
 
@@ -29,19 +29,19 @@ pip install serialtalk
 2. Connect to your MicroPython device
 3. Navigate to **Tools** > **Package Manager**
 4. Click **Install package via link**
-5. Enter: `github:antonvh/SerialTalk`
+5. Enter: `github:AntonsMindstorms/SerialTalk`
 
 #### Option 2: Using mpremote
 
 ```bash
-mpremote mip install github:antonvh/SerialTalk
+mpremote mip install github:AntonsMindstorms/SerialTalk
 ```
 
 #### Option 3: Using mip from device REPL
 
 ```python
 import mip
-mip.install("github:antonvh/SerialTalk")
+mip.install("github:AntonsMindstorms/SerialTalk")
 ```
 
 ## Usage
@@ -88,7 +88,7 @@ ser.call('echo','read?')
                                        # to the IDE. The FPS should increase once disconnected.
    ```
 
-3. On the SPIKE Prime [Install mpy-robot-tools](https://github.com/antonvh/mpy-robot-tools/blob/master/Installer/install_mpy_robot_tools.py) with the installer script. Note that the installer may seem unresponsive. Just have some patience.
+3. On the SPIKE Prime [Install mpy-robot-tools](https://github.com/AntonsMindstorms/mpy-robot-tools/blob/master/Installer/install_mpy_robot_tools.py) with the installer script. Note that the installer may seem unresponsive. Just have some patience.
 
 4. Run this script on SPIKE Prime:
 
