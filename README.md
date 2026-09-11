@@ -23,9 +23,15 @@ pip install serialtalk
 
 ### For MicroPython
 
-#### Option 1: Using viperIDE.org (Recommended)
+#### Option 1: Using ViperIDE (Recommended)
 
-1. Go to [viperIDE.org](https://viper-ide.org/)
+Install with one click (connect your device when prompted):
+
+[![Install using ViperIDE](https://raw.githubusercontent.com/vshymanskyy/ViperIDE/refs/heads/main/assets/btn_install.png)](https://viper-ide.org/?install=github:AntonsMindstorms/SerialTalk)
+
+Or install manually:
+
+1. Go to [https://viper-ide.org/](https://viper-ide.org/)
 2. Connect to your MicroPython device
 3. Navigate to **Tools** > **Package Manager**
 4. Click **Install package via link**
@@ -88,7 +94,7 @@ ser.call('echo','read?')
                                        # to the IDE. The FPS should increase once disconnected.
    ```
 
-3. On the SPIKE Prime [Install mpy-robot-tools](https://github.com/AntonsMindstorms/mpy-robot-tools/blob/master/Installer/install_mpy_robot_tools.py) with the installer script. Note that the installer may seem unresponsive. Just have some patience.
+3. On the SPIKE Prime [Install mpy-robot-tools](https://github.com/AntonsMindstorms/robot_tools/blob/master/Installer/install_mpy_robot_tools.py) with the installer script. Note that the installer may seem unresponsive. Just have some patience.
 
 4. Run this script on SPIKE Prime:
 

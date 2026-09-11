@@ -1,18 +1,20 @@
 {
+  "name": "serialtalk",
+  "version": "1.0.0",
   "urls": [
-    ["serialtalk/__init__.py", "serialtalk/__init__.py"],
-    ["serialtalk/auto.py", "serialtalk/auto.py"],
-    ["serialtalk/esp32.py", "serialtalk/esp32.py"],
-    ["serialtalk/esp8266.py", "serialtalk/esp8266.py"],
-    ["serialtalk/k210.py", "serialtalk/k210.py"],
-    ["serialtalk/mshub.py", "serialtalk/mshub.py"],
-    ["serialtalk/openmv.py", "serialtalk/openmv.py"],
-    ["serialtalk/pybricks.py", "serialtalk/pybricks.py"],
-    ["serialtalk/serialtalk.py", "serialtalk/serialtalk.py"],
-    ["serialtalk/sockets.py", "serialtalk/sockets.py"],
-    ["serialtalk/usockets.py", "serialtalk/usockets.py"],
-    ["uartremote.py", "uartremote.py"]
+    ["serialtalk/__init__.py", "github:AntonsMindstorms/SerialTalk/serialtalk/__init__.py"],
+    ["serialtalk/auto.py", "github:AntonsMindstorms/SerialTalk/serialtalk/auto.py"],
+    ["serialtalk/esp32.py", "github:AntonsMindstorms/SerialTalk/serialtalk/esp32.py"],
+    ["serialtalk/esp8266.py", "github:AntonsMindstorms/SerialTalk/serialtalk/esp8266.py"],
+    ["serialtalk/k210.py", "github:AntonsMindstorms/SerialTalk/serialtalk/k210.py"],
+    ["serialtalk/mshub.py", "github:AntonsMindstorms/SerialTalk/serialtalk/mshub.py"],
+    ["serialtalk/openmv.py", "github:AntonsMindstorms/SerialTalk/serialtalk/openmv.py"],
+    ["serialtalk/pybricks.py", "github:AntonsMindstorms/SerialTalk/serialtalk/pybricks.py"],
+    ["serialtalk/serialtalk.py", "github:AntonsMindstorms/SerialTalk/serialtalk/serialtalk.py"],
+    ["serialtalk/sockets.py", "github:AntonsMindstorms/SerialTalk/serialtalk/sockets.py"],
+    ["serialtalk/usockets.py", "github:AntonsMindstorms/SerialTalk/serialtalk/usockets.py"],
+    ["uartremote.py", "github:AntonsMindstorms/SerialTalk/uartremote.py"]
   ],
-  "deps": [],
-  "version": "1.0.0"
+  "deps": []
 }
+

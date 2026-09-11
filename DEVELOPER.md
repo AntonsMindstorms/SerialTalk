@@ -14,7 +14,7 @@ This guide covers how to build and publish the SerialTalk package to PyPI.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/antonvh/SerialTalk.git
+   git clone https://github.com/AntonsMindstorms/SerialTalk.git
    cd SerialTalk
    ```
 
@@ -200,5 +200,5 @@ Consider setting up GitHub Actions for:
 
 For issues and questions:
 
-- GitHub Issues: <https://github.com/antonvh/SerialTalk/issues>
+- GitHub Issues: <https://github.com/AntonsMindstorms/SerialTalk/issues>
 - Email: <anton@antonsmindstorms.com>

@@ -16,7 +16,7 @@ __copyright__ = "Copyright 2023-2025, AntonsMindstorms.com"
 __license__ = "MIT"
 __status__ = "Production"
 __email__ = "anton@antonsmindstorms.com"
-__url__ = "https://github.com/antonvh/SerialTalk"
+__url__ = "https://github.com/AntonsMindstorms/SerialTalk"
 
 # Submodules contain serial wrappers around common communication channels.
 # All classes support read, write, any

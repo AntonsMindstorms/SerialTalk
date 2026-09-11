@@ -6,7 +6,7 @@ Thank you for your interest in contributing to SerialTalk!
 
 ### Reporting Issues
 
-- Check if the issue already exists in [GitHub Issues](https://github.com/antonvh/SerialTalk/issues)
+- Check if the issue already exists in [GitHub Issues](https://github.com/AntonsMindstorms/SerialTalk/issues)
 - Use the issue template if provided
 - Include:
   - Clear description of the problem
@@ -33,7 +33,7 @@ See [DEVELOPER.md](DEVELOPER.md) for detailed setup instructions.
 Quick start:
 
 ```bash
-git clone https://github.com/antonvh/SerialTalk.git
+git clone https://github.com/AntonsMindstorms/SerialTalk.git
 cd SerialTalk
 python3 -m venv venv
 source venv/bin/activate

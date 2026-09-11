@@ -44,10 +44,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/antonvh/SerialTalk"
-Documentation = "https://serialtalk.readthedocs.io"
-Repository = "https://github.com/antonvh/SerialTalk"
-"Bug Tracker" = "https://github.com/antonvh/SerialTalk/issues"
+Homepage = "https://github.com/AntonsMindstorms/SerialTalk"
+Documentation = "https://docs.antonsmindstorms.com/en/latest/Software/SerialTalk/docs/index.html"
+Repository = "https://github.com/AntonsMindstorms/SerialTalk"
+"Bug Tracker" = "https://github.com/AntonsMindstorms/SerialTalk/issues"
 
 [tool.setuptools]
 packages = ["serialtalk"]

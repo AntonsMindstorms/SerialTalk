@@ -11,7 +11,7 @@ UartRemote, but it is generalized to work over more channels than just UART.
 The protocol is compatible.
 
 We developed it on python 3.9 with LEGO EV3, SPIKE Prime and other MicroPython 
-(ESP/STM32) modules. The library is available on github: `UartRemote on GitHub <https://github.com/antonvh/UartRemote>`_.
+(ESP/STM32) modules. The library is available on github: `SerialTalk on GitHub <https://github.com/AntonsMindstorms/SerialTalk>`_.
 
 
 The library has the following properties:
@@ -52,21 +52,30 @@ Install from PyPI using pip:
 For MicroPython
 ~~~~~~~~~~~~~~~
 
-Option 1: Using viperIDE.org (Recommended)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Option 1: Using ViperIDE (Recommended)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1. Go to `viperIDE.org <https://viper-ide.org/>`_
+Install with one click (connect your device when prompted):
+
+.. image:: https://raw.githubusercontent.com/vshymanskyy/ViperIDE/refs/heads/main/assets/btn_install.png
+   :target: https://viper-ide.org/?install=github:AntonsMindstorms/SerialTalk
+   :alt: Install using ViperIDE
+   :height: 48px
+
+Or install manually:
+
+1. Go to `https://viper-ide.org/ <https://viper-ide.org/>`_
 2. Connect to your MicroPython device
 3. Navigate to **Tools** > **Package Manager**
 4. Click **Install package via link**
-5. Enter: ``github:antonvh/SerialTalk``
+5. Enter: ``github:AntonsMindstorms/SerialTalk``
 
 Option 2: Using mpremote
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code:: bash
 
-   mpremote mip install github:antonvh/SerialTalk
+   mpremote mip install github:AntonsMindstorms/SerialTalk
 
 Option 3: Using mip from device REPL
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -74,7 +83,7 @@ Option 3: Using mip from device REPL
 .. code:: python
 
    import mip
-   mip.install("github:antonvh/SerialTalk")
+   mip.install("github:AntonsMindstorms/SerialTalk")
 
 Usage
 -----
@@ -125,7 +134,7 @@ Example with OpenMV H7
                                        # to the IDE. The FPS should increase once disconnected.
 
 3. On the SPIKE Prime `Install
-   mpy-robot-tools <https://github.com/antonvh/mpy-robot-tools/blob/master/Installer/install_mpy_robot_tools.py>`__
+   mpy-robot-tools <https://github.com/AntonsMindstorms/robot_tools/blob/master/Installer/install_mpy_robot_tools.py>`__
    with the installer script. Note that the installer may seem
    unresponsive. Just have some patience.
 4. Run this script on SPIKE Prime:
